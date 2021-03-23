@@ -11,6 +11,15 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  */
 public class Storage implements SelfCheckCapable {
 
+	int Memory;
+	
+	/**
+	 * Store visual capture and information
+	 */
+	void Visual capture () {
+		
+	}
+	
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub

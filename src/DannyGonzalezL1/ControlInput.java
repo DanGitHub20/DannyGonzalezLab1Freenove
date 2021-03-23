@@ -10,6 +10,25 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  *
  */
 public class ControlInput implements SelfCheckCapable {
+	
+	int Android;
+	int Iphone;
+	int Computer;
+	
+	/**
+	 * Send instructions
+	 */
+	Void Send () {
+		
+	}
+	
+	/**
+	 * Receive information
+	 */
+	void Receive () {
+		
+	}
+	
 
 	@Override
 	public String getComponentName() {

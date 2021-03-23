@@ -11,6 +11,22 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  */
 public class Signal implements SelfCheckCapable {
 
+	int Antenna;
+	
+	/**
+	 * Receive instruction signal from Control Input
+	 */
+	void Receive () {
+		
+	}
+	
+	/**
+	 * Send instruction to vehicle components information to control input
+	 */
+	void Send () {
+		
+	}
+	
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub

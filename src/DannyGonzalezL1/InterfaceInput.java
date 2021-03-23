@@ -11,6 +11,15 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  */
 public class InterfaceInput implements SelfCheckCapable {
 
+	int Buttons;
+	
+	/**
+	 * Powers device on or off
+	 */
+	void Switch () {
+		
+	}
+	
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub

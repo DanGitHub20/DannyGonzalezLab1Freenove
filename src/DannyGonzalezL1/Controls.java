@@ -11,6 +11,22 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  */
 public class Controls implements SelfCheckCapable {
 
+	int Raspberry;
+	
+	/**
+	 * Sends signal to vehicle components
+	 */
+	void Send () {
+		
+	}
+	
+	/**
+	 * Performs system check
+	 */
+	void check () {
+		
+	}
+	
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub

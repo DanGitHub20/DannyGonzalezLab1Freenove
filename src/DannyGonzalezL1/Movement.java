@@ -10,6 +10,39 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  *
  */
 public class Movement implements SelfCheckCapable {
+	
+	int Motor;
+	int Wheel;
+	int Axles;
+	int Suspension;
+	
+	/**
+	 * Moves vehicle forward
+	 */
+	void Forward () {
+		
+	}
+	
+	/**
+	 * Moves vehicle backwards
+	 */
+	void Backward () {
+		
+	}
+	
+	/**
+	 * Moves vehicle left or right
+	 */
+	void Turning () {
+		
+	}
+	
+	/**
+	 * Stops vehicle
+	 */
+	void stop () {
+		
+	}
 
 	@Override
 	public String getComponentName() {
